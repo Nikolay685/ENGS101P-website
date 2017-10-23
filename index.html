@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<title>Blockchain Technology</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+
+
+<!-- Navbar -->
+<body>
+<style>
+  body {
+      font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+  }
+  
+  .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+      color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  </style>
+  </head>
+  <body>
+  
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">HISTORY OF BLOCKCHAIN</a>
+    <a href="#">WHAT IS BLOCKCHAIN?</a>
+    <a href="#">APPLICATIONS OF BLOCKCHAIN</a>
+  </div>
+
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+  
+  <script>
+  function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+       
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="blockchain.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="bitcoin.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="handshake.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+  
+    </div>
+  </div>
+
+  
+  <!-- HISTORY OF BLOCKCHAIN -->
+  <div class="w3-black" id="history">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">HISTORY OF BLOCKCHAIN</h2>
+        <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        
+             <div class="w3-third w3-margin-bottom">
+                <img src="researcher.jpg" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                  <p><b>Origins</b></p>
+                  <p>
+                        The first work on a cryptographically secured chain of blocks was described in 1991 by Stuart Haber and W. Scott Stornetta. In 1992, Bayer, Haber and Stornetta incorporated Merkle trees to the blockchain as an efficiency improvement to be able to collect several documents into one block.
+                  </p>
+                </div>
+              </div>
+
+              <div class="w3-third w3-margin-bottom">
+                    <img src="unknown.jpg" style="width:100%" class="w3-hover-opacity">
+                    <div class="w3-container w3-white">
+                      <p><b>Creator Of Blockchain?</b></p>
+                      <p>Satoshi Nakamotoi is the name used by the unknown person or group who designed bitcoin and created its original reference implementation. As part of the implementation, they also devised the first blockchain database.
+                          </p>
+                    </div>
+                  </div>
+
+
+              <div class="w3-third w3-margin-bottom">
+                    <img src="growth.jpg"  style="width:100%" class="w3-hover-opacity">
+                    <div class="w3-container w3-white">
+                      <p><b>Growth</b></p>
+                      <p>
+                            In August 2014, the bitcoin blockchain file size reached 20 gigabytes. In January 2015, the size had grown to almost 30 gigabytes, and from January 2016 to January 2017, the bitcoin blockchain grew from 50 gigabytes to 100 gigabytes in size.
+                      </p>
+                    </div>
+                  </div>
+
+      
+    </div>
+    </div>
+  </div>
+
+
+
+  <!-- WHAT IS BLOCKCHAIN -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="history">
+        <h2 class="w3-wide">WHAT IS BLOCKCHAIN?</h2>
+        <p class="w3-opacity"><i>A growing list of records called blocks</i></p>
+        <p class="w3-justify">The blocks are linked and secured using cryptography. Blockchain is only one type of data structure considered to be a distributed ledger.
+                This is a consensus of replicated, shared, and synchronised digital data geographically spread across multiple sites, countries, or institutions. There is no central administrator of this data. 
+                A peer to peer network is required. Once recorded, the data in any given block cannot be altered retroactively without the alteration of all subsequent blocks, which needs a collusion of the network majority. A decentralised consensus makes blockchain suitable for the recording of events.
+        </p>
+        <div class="w3-row w3-padding-32">
+            <p>Each block is connected to the previous by the following three things. </p>
+            <p>1. Hash pointer</p>
+            <p>2. Timestamp</p>
+            <p>3. Transaction data</p>
+            </div>
+          <div class="w3-third">
+            <img src="representation.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:300%">
+          </div>
+          
+      </div>
+    
+  
+
+  <!-- USES OF BLOCKCHAIN -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="history">
+        <h2 class="w3-wide">USES OF BLOCKCHAIN</h2>
+        <p class="w3-opacity"><i>Cryptocurrencies</i></p>
+        <p class="w3-justify">
+          
+          At its simplest, cryptocurrencies, or digital coins, are coins that are passed through an electronic network. 
+          Bitcoin is the world's first and most well-known blockchain application. It is a decentralized network for transactions in digital currency, which can be stored and transferred in the form of cryptographic tokens. Bitcoin uses a peer-to-peer network to broadcast information about transactions, which are then added to blocks that are cryptographically secured, forming an immutable blockchain. Because the entire blockchain is shared by all participants, it is easy to prevent double-spending and check who owns which tokens at which time. Furthermore, a powerful scripting system can be used to automate transactions or make them dependent on certain pre-conditions.     
+          
+            
+        </p>
+        
+
+
+        <p class="w3-opacity"><i>Smart Contracts</i></p>
+        <p class="w3-justify">
+          Smart contracts are digital which are embedded with an if-this-then-that (IFTTT) code, which gives them self-execution. In real life, an intermediary ensures that all parties follow through on terms. The blockchain not only waives the need for third parties, but also ensures that all ledger participants know the contract details and that contractual terms implement automatically once conditions are met.
+          You can use smart contracts for all sort of situations, such as financial derivatives, insurance premiums, property law, and crowd funding agreements, among others.  
+        </p>
+
+        <div class="w3-third">
+          <img src="contract.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:80%">
+          </div>
+       
+          <p class="w3-opacity"><i>Stock exchange</i></p>
+        <p class="w3-justify"><p>
+          Traditional systems tend to be cumbersome, error-prone and maddeningly slow. Intermediaries are often needed to mediate the process and resolve conflicts. Naturally, this costs stress, time, and money. In contrast, users find the blockchain cheaper, more transparent, and more effective.    
+          Creating a decentralized and secure ledger – a blockchain – that gives every party a say in the validation of a transaction, speeds up the settlement process, allows for greater trade accuracy, and can cut out some of the ‘middlemen’ (such as brokers) while changing the role of others (such as those determining share price).
+        </p>
+    
+      </div>
+
+      
+  
+<!-- End Page Content -->
+</div>
+
+
+<script>
+// Automatic Slideshow - change image every second
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 1000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
