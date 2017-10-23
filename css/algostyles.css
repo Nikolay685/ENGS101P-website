@@ -1,0 +1,92 @@
+@media (min-width: 767px){
+    #fin_logo{
+        min-width: 300px;
+    }
+    #logo{
+        padding-top: 100px;
+    }
+
+    #second_circle{
+        padding-top:20px;
+        max-width:60%;
+    }
+}
+
+@media (min-width: 992px){
+    #fin_logo{
+        min-width: 300px;
+    }
+    #logo{
+        padding-top: 70px;
+    }
+}
+
+@media (min-width: 1200px){
+    #fin_logo{
+        min-width: 300px;
+    }
+    #logo{
+        padding-top: 70px;
+    }
+}
+
+@media (max-width: 767px){
+    #fin_logo{
+        min-width: 100px;
+        max-width: 100%;
+    }
+    #logo{
+        padding-top: 50px;
+    }
+}
+
+#top_title{
+    background-color: #ffd64f;
+    box-shadow: 0px 5px 10px black;
+}
+
+#importanth1{
+    font-size: 6em;
+}
+
+#importantp1{
+    font-size: 200%;
+}
+
+#first_section{
+    background-color: #399fff;
+    z-index: -1; position:relative;
+}
+
+#second_section{
+    background-color: #5194d3;
+}
+
+#fin_logos{
+    height:auto;
+    max-width:100%;
+    padding: 0px;
+    margin:0px;
+}
+
+.table>tbody>tr>td{
+    padding: 0px;
+    border:0px;
+}
+
+.table-responsive{
+    padding-top:50px;
+}
+
+.h1_second_section{
+    text-align: center;
+}
+
+.p1_second_section{
+    text-align: center;
+    font-size: 150%;
+}
+
+#third_section{
+    background-color: #399fff;
+}
