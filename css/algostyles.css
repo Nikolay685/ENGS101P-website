@@ -1,6 +1,6 @@
 @media (min-width: 767px){
     #fin_logo{
-        min-width: 300px;
+        min-width: 400px;
     }
     #logo{
         padding-top: 100px;
@@ -93,4 +93,8 @@
 
 .benefits{
     font-size: 150%;
+}
+
+.strat-logo{
+    max-width: 400px;
 }
