@@ -41,24 +41,39 @@
 }
 
 #top_title{
-    background-color: #399fff;
+    background-color: black;
 }
 
 #importanth1{
     font-size: 6em;
+    margin:auto;
+    max-width:900px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 #importantp1{
     font-size: 200%;
+    margin:auto;
+    max-width: 950px;
+    display: block;
+}
+
+.rowoffive{
+    margin:auto;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 #first_section{
-    background-color: #399fff;
+    background-color: lightblue;
     z-index: -1; position:relative;
 }
 
 #second_section{
-    background-color: #5194d3;
+    background-image: url("../img/account.jpg");
+    background-position: center;
 }
 
 #fin_logos{
