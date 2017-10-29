@@ -1,3 +1,14 @@
 #top_title{
     background-color: black;
 }
+
+.face{
+    max-width:200px;
+    margin:auto;
+    display: block;
+}
+
+.aboutperson{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
