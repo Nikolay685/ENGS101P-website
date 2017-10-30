@@ -8,7 +8,40 @@
     display: block;
 }
 
+
 .aboutperson{
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+#aboutUCL{
+    background-image: url("../img/ucl_main_building.jpg");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img_text{
+    color: black;
+}
+
+.UCL_heading{
+    font-size: 500%;
+    font-weight: bold;
+}
+
+.UCL_text{
+    font-size:150%;
+    font-weight: bold;
+}
+
+#textBox{
+    box-shadow: 5px 5px 10px #000000;
+    background-color: #dee4c6;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+#facegroup{
+    background-color: #53a0f1;
 }
