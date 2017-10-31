@@ -74,6 +74,7 @@
 #second_section{
     background-image: url("../img/account.jpg");
     background-position: center;
+    background-size: cover;
 }
 
 #fin_logos{
