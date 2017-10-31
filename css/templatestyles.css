@@ -1,11 +1,59 @@
+/* ----------- TOP BAR ---------------*/
 #top_bar{
     background-color: black;
     height:100px;
+    box-shadow: 10px 0px 10px #000000;
 }
 
 #UCL_logo{
     height:100px;
 }
+/* -----------------------------------*/
+
+/* --------- IMAGE WITH TEXT ---------*/
+#image_with_text{ /*set the image, its dimentions and posiion with in the div*/
+    background-image: url("../img/ucl_main_building.jpg");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    z-index: -1; position:relative;
+}
+
+#text_group{
+    color: black;
+}
+
+.img_heading{
+    font-size: 500%;
+    font-weight: bold;
+}
+
+.img_par{
+    font-size:150%;
+    font-weight: bold;
+}
+
+#textBox{ /* set colour and shadow of the text box*/
+    box-shadow: 5px 5px 10px #000000;
+    background-color: #dee4c6;
+    padding: 20px;
+    padding-top: 0px;
+}
+/* -----------------------------------*/
+
+/* --------- TEXT AND IMAGE ----------*/
+#text_and_image{/* this sets the divs position and shadow*/
+    box-shadow: -5px 0px 10px #000000;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color: rgb(40, 40, 230);
+}
+
+.normal_text{
+    font-size:230%;
+    color:black;
+}
+/* -----------------------------------*/
 
 @media (min-width: 767px){
 
