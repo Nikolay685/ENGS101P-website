@@ -77,6 +77,15 @@
     background-size: cover;
 }
 
+.textBox{
+    box-shadow: 5px 5px 10px #000000;
+    background-color: #dee4c6;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin:20px;
+}
+
 #fin_logos{
     height:auto;
     max-width:100%;
