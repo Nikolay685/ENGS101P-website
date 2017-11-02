@@ -15,17 +15,38 @@
   </head>
   <body>
 
-    <div id="top_title">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-2">
-                </div>
-                <div class="col-sm-offset-8 col-sm-2">
-                    <img src = "img/ucl_logo.png" alt = "UCL logo" class="img-responsive logo">
+    <div id="top_bar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class = "col-sm-2">
+                        <div class="dropdown menu">
+                            <button class="btn btn-default btn-lg dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Menu
+                            <span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html">Home</a></li>
+                                <li class="dropdown-submenu">
+                                    <a tabindex="-1" href="#">Research Areas</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a tabindex="-1" href="dataScience.html">Data Science</a></li>
+                                        <li><a tabindex="-1" href="blockchain.html">Blockchain</a></li>
+                                        <li><a tabindex="-1" href="numpricing.html">Numerical Pricing</a></li>
+                                        <li><a tabindex="-1" href="algotrading.html">Algorithmic Trading</a></li>
+                                        <li><a tabindex="-1" href="#">Digital Economy</a></li>
+                                    </ul>
+                                </li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">UCL Research</a></li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="aboutus.html">About Us</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Links</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-offset-7 col-md-2 col-sm-offset-6 col-sm-2">
+                        <img src = "img/ucl_logo.png" alt = "UCL logo" id = "UCL_logo">
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     
         <div id="first_section">
             <div class="container">

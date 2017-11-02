@@ -2,9 +2,6 @@
     #fin_logo{
         min-width: 400px;
     }
-    #logo{
-        padding-top: 100px;
-    }
 
     #second_circle{
         padding-top:20px;
@@ -16,18 +13,13 @@
     #fin_logo{
         min-width: 300px;
     }
-    #logo{
-        padding-top: 70px;
-    }
 }
 
 @media (min-width: 1200px){
     #fin_logo{
         min-width: 300px;
     }
-    #logo{
-        padding-top: 70px;
-    }
+
 }
 
 @media (max-width: 767px){
@@ -35,13 +27,78 @@
         min-width: 100px;
         max-width: 100%;
     }
-    #logo{
-        padding-top: 50px;
-    }
 }
 
-#top_title{
+/* ----------- TOP BAR ---------------*/
+#top_bar{
     background-color: black;
+    height:100px;
+    box-shadow: 10px 0px 10px #000000;
+}
+
+.menu{
+    padding-top: 30px;
+}
+
+dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+.btn-default{
+    background-color:black
+}
+
+.btn-lg{
+    color: white;
+    border-radius: 0;
+}
+
+#UCL_logo{
+    height:100px;
 }
 
 #importanth1{
@@ -67,7 +124,7 @@
 }
 
 #first_section{
-    background-color: lightblue;
+    background-color: lightskyblue;
     z-index: -1; position:relative;
 }
 
@@ -112,7 +169,7 @@
 }
 
 #third_section{
-    background-color: #399fff;
+    background-color: lightskyblue;
 }
 
 .benefits{
