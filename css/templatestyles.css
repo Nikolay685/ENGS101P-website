@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Raleway-Light";
+    src: url("../fonts/Raleway-Light.ttf");
+}
+
+@font-face {
+    font-family: "Raleway-SemiBold";
+    src: url("../fonts/Raleway-SemiBold.ttf");
+}
+
 /* ----------- TOP BAR ---------------*/
 #top_bar{
     background-color: black;
@@ -68,6 +78,12 @@ dropdown-submenu {
 
 #UCL_logo{
     height:100px;
+}
+
+#page_title{
+    color:white;
+    font-size: 400%;
+    font-family: 'Raleway-SemiBold', Arial, sans-serif;
 }
 /* -----------------------------------*/
 
