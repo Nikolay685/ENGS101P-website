@@ -18,8 +18,8 @@
         max-width:60%;
     }
     #page_title{
-        font-size: 300%;
-        padding-top: 10px;
+        font-size: 200%;
+        padding-top:20px;
     }
 }
 
@@ -27,11 +27,18 @@
     #fin_logo{
         min-width: 300px;
     }
+    #page_title{
+        font-size: 300%;
+        padding-top: 10px;
+    }
 }
 
 @media (min-width: 1200px){
     #fin_logo{
         min-width: 300px;
+    }
+    #importantp1{
+        font-size: 200%;
     }
 
 }
@@ -51,9 +58,27 @@
     #page_title{
         font-size:200%;
         padding-left:100px;
+        padding-top: 20px;
     }
     .menu{
         max-width: 100px;
+    }
+    
+}
+
+@media (max-width: 992px){
+    .strat-logo{
+        margin:auto;
+        position: relative;
+    }
+    .strat-h{
+        text-align: center;
+    }
+    .strat-p{
+        font-size: 130%;
+    }
+    #importantp1{
+        font-size: 150%;
     }
 }
 
@@ -143,7 +168,7 @@ dropdown-submenu {
 }
 
 #importantp1{
-    font-size: 200%;
+    
     margin:auto;
     max-width: 950px;
     display: block;
@@ -203,6 +228,8 @@ dropdown-submenu {
 
 #third_section{
     background-color: lightskyblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .benefits{
@@ -211,4 +238,5 @@ dropdown-submenu {
 
 .strat-logo{
     max-width: 400px;
+    border-radius: 10%;
 }
