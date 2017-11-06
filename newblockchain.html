@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Algo Trading</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <style>
+
+@font-face {
+    font-family: "Raleway-Light";
+    src: url("../fonts/Raleway-Light.ttf");
+}
+
+@font-face {
+    font-family: "Raleway-SemiBold";
+    src: url("../fonts/Raleway-SemiBold.ttf");
+}
+
+@media (min-width: 767px){
+    #fin_logo{
+        min-width: 400px;
+    }
+
+    #second_circle{
+        padding-top:20px;
+        max-width:60%;
+    }
+    #page_title{
+        font-size: 200%;
+        padding-top:20px;
+    }
+}
+
+@media (min-width: 992px){
+    #fin_logo{
+        min-width: 300px;
+    }
+    #page_title{
+        font-size: 300%;
+        padding-top: 10px;
+    }
+}
+
+@media (min-width: 1200px){
+    #fin_logo{
+        min-width: 300px;
+    }
+    #importantp1{
+        font-size: 200%;
+    }
+
+}
+
+@media (min-width: 470px){
+    #page_title{
+        padding-top:10px;
+    }
+
+}
+
+@media (max-width: 767px){
+    #fin_logo{
+        min-width: 100px;
+        max-width: 100%;
+    }
+    #page_title{
+        font-size:200%;
+        padding-left:100px;
+        padding-top: 20px;
+    }
+    .menu{
+        max-width: 100px;
+    }
+
+}
+
+@media (max-width: 992px){
+    .strat-logo{
+        margin:auto;
+        position: relative;
+    }
+    .strat-h{
+        text-align: center;
+    }
+    .strat-p{
+        font-size: 130%;
+    }
+    #importantp1{
+        font-size: 150%;
+    }
+}
+
+/* ----------- TOP BAR ---------------*/
+#top_bar{
+    background-color: black;
+    height:100px;
+    box-shadow: 10px 0px 10px #000000;
+}
+
+.menu{
+    padding-top: 30px;
+}
+
+dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+.btn-default{
+    background-color:black
+}
+
+.btn-lg{
+    color: white;
+    border-radius: 0;
+}
+
+#UCL_logo{
+    height:100px;
+}
+
+#page_title{
+    color:white;
+    font-family: 'Raleway-SemiBold', Arial, sans-serif;
+}
+
+#importanth1{
+    font-size: 5em;
+    margin:auto;
+    max-width:900px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#importantp1{
+
+    margin:auto;
+    max-width: 950px;
+    display: block;
+}
+
+.rowoffive{
+    margin:auto;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#first_section{
+    background-color: lightskyblue;
+    z-index: -1; position:relative;
+}
+
+#second_section{
+    background-image: url("../img/account.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.textBox{
+    box-shadow: 5px 5px 10px #000000;
+    background-color: #dee4c6;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin:20px;
+}
+
+#fin_logos{
+    height:auto;
+    max-width:100%;
+    padding: 0px;
+    margin:0px;
+}
+
+.table>tbody>tr>td{
+    padding: 0px;
+    border:0px;
+}
+
+.table-responsive{
+    padding-top:50px;
+}
+
+.h1_second_section{
+    text-align: center;
+}
+
+.p1_second_section{
+    text-align: center;
+    font-size: 150%;
+}
+
+#third_section{
+    background-color: lightskyblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.benefits{
+    font-size: 150%;
+}
+
+.strat-logo{
+    max-width: 400px;
+    border-radius: 10%;
+}
+
+    </style>
+
+  </head>
+  <body>
+
+    <div id="top_bar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class = "col-xs-2 col-sm-2">
+                        <div class="dropdown menu">
+                            <button class="btn btn-default btn-lg dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Menu
+                            <span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html">Home</a></li>
+                                <li class="dropdown-submenu">
+                                    <a tabindex="-1" href="#">Research Areas</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a tabindex="-1" href="dataScience.html">Data Science</a></li>
+                                        <li><a tabindex="-1" href="blockchain.html">Blockchain</a></li>
+                                        <li><a tabindex="-1" href="numpricing.html">Numerical Pricing</a></li>
+                                        <li><a tabindex="-1" href="algotrading.html">Algorithmic Trading</a></li>
+                                        <li><a tabindex="-1" href="#">Digital Economy</a></li>
+                                    </ul>
+                                </li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">UCL Research</a></li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="aboutus.html">About Us</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Links</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-pull-1 col-xs-10 col-sm-6 col-sm-offset-2">
+                        <h2 id = "page_title">Blockchain Technology</h2>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-sm-pull-2 hidden-xs">
+                        <img src = "img/ucl_logo.png" alt = "UCL logo" id = "UCL_logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="first_section">
+            <div class="container">
+                    <h1 id="importanth1">What is Blockchain Technology?</h1>
+                    <p1 id="importantp1">
+                      A blockchain is a growing list of records which we call blocks. The blocks are linked
+                      and secured
+                      using cyrptography. This  is only one type of data structure known as a distributed
+                      ledger, whereby data is replicated and shared across multiple
+                      sites, countries or institutions, requiring a peer to peer network.
+
+                    </p1>
+                    <img src = "img/trading.jpg" alt = "Money bag" class = "img-responsive rowoffive">
+            </div>
+        </div>
+
+        <div id="second_section">
+            <div class="container">
+                <div class = "row">
+                    <div class=" col-sm-offset-3 col-sm-6">
+                        <div class = "textBox">
+                            <h1>Benefits of Blockchain technology</h1>
+                            <ul>
+                                <li class = "benefits">Once recorded, the data in any given block cannot be altered without the alteration of all subsequent blocks.</li>
+                                <li class = "benefits">A decentralised consensus makes blockchain suitable for the recording of events.</li>
+                                <li class = "benefits">Reduced transaction costs by cutting out "middlmen".</li>
+                                <li class = "benefits">Complete transparency for the user.</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id = "third_section">
+            <div class = "container">
+                <div class="row">
+                    <div class = "col-md-6">
+                        <img src = "img/trading-following.PNG" alt="trading following logo" class = "img-responsive strat-logo">
+                    </div>
+                    <div class = "col-md-6">
+                        <h1 class = "strat-h">Cryptocurrencies</h1>
+                        <p1 class = "strat-p">
+                          In its simplest terms, a digital currency are coins that are passed through an electric network.
+                          Bitcoin is the first and most famous application of blockchain. Bitcoin uses a peer-to-peer network to broadcast information about transactions, which are then added to blocks that are cryptographically secured, forming an immutable blockchain.
+                          The entire blockchain is shared by all participants, therefore it is easy to prevent double-spending.
+                          Bitcoin is all about transparency, and thus anyone can check who owns which tokens at which time.
+
+                        </p1>
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class = "col-md-6 col-md-push-6">
+                            <img src = "img/meanreversion.PNG" alt="mean reversion logo" class = "img-responsive strat-logo">
+                    </div>
+                    <div class = "col-md-6 col-md-pull-6">
+                        <h1 class = "strat-h">Smart Contracts</h1>
+                        <p1 class = "strat-p">
+                          These have applications in all sorts of situations, such as financial derivatives, insurance premiums and crowdfunding agreements among others.
+                          Smart contracts are embedded with an if-this-then-that (IFTTT) code, which gives them self-execution.
+                          The blockchain gets rid of the need for third parties.
+                          It also ensures that all ledger participants know the contract details.
+                          The contract terms are implemented automatically once the conditions are met.
+                        </p1>
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class = "col-md-6">
+                        <img src = "img/newsbased.PNG" alt="News based logo" class = "img-responsive strat-logo">
+                    </div>
+                    <div class = "col-md-6">
+                        <h1 class = "strat-h">Stock Exchange</h1>
+                        <p1 class = "strat-p">
+                          Traditional systems tend to be erro-prone, and often quite slow.
+                          Naturally, this costs stress, time, and money. Blockchain technology cuts out the need
+                          for any intermediaries, and as such the users find that their experience is cheaper and more transparent.
+                          It cuts out the need for brokers and gives every party a say in the
+                          validation of the transaction.
+
+                          </p1>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script scr="js/app.js"></script>
+
+  </body>
+
+</html>
