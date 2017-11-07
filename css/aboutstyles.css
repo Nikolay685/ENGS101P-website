@@ -157,11 +157,15 @@ dropdown-submenu {
 }
 
 #Jason_box{
-    background-color: #763568;
+    background-color: #d35400;
 }
 
 #facegroup{
     box-shadow: -10px 0px 10px #000000;
     background-color: lightskyblue;
+}
+
+.face_text{
+    font-size:1.5em;
 }
 
