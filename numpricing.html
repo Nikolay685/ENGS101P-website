@@ -1,19 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-    <head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="css.css" type="text/css"> </head>
 
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Numerical Pricing</title>
-
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/templatestyles.css">
-
-    </head>
-      <style>
+  <style>
     #top_bar {
       background-color: black;
       height: 100px;
@@ -147,47 +141,56 @@
     }
   </style>
 
-    <body>
-
-        <!-- This is the html for the black bar at the top with logo and menu -->
-        <div id="top_bar">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class = "col-sm-2">
-                        <div class="dropdown menu">
-                            <button class="btn btn-default btn-lg dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Menu
-                            <span class="caret"></span></button>
-                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html">Home</a></li>
-                                <li class="dropdown-submenu">
-                                    <a tabindex="-1" href="#">Research Areas</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a tabindex="-1" href="dataScience.html">Data Science</a></li>
-                                        <li><a tabindex="-1" href="blockchain.html">Blockchain</a></li>
-                                        <li><a tabindex="-1" href="numpricing.html">Numerical Pricing</a></li>
-                                        <li><a tabindex="-1" href="algotrading.html">Algorithmic Trading</a></li>
-                                        <li><a tabindex="-1" href="#">Digital Economy</a></li>
-                                    </ul>
-                                </li>
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">UCL Research</a></li>
-                                <li role="presentation" class="divider"></li>
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="aboutus.html">About Us</a></li>
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Links</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-offset-0 col-sm-4 col-xs-offset-2">
-                        <h1 id="page_title" class="my-4 text-center text-white">Numerical Pricing</h1>
-                    </div>
-                    <div class="col-md-offset-3 col-md-2 col-sm-offset-2 col-sm-2 hidden-xs">
-                        <img src = "img/ucl_logo.png" alt = "UCL logo" id = "UCL_logo">
-                    </div>
-                </div>
-            </div>
+  
+<body class="">
+  <div id="top_bar">
+    <div class="container-fluid">
+      <div class="row bg-dark">
+        <div class="col-xs-2 col-sm-2">
+          <div class="dropdown menu">
+            <button class="btn btn-default btn-lg dropdown-toggle border-white btn-dark border border-light" type="button" id="menu1" data-toggle="dropdown">Menu <span class="caret"></span></button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="index.html">Home</a>
+              </li>
+              <li class="dropdown-submenu">
+                <a tabindex="-1" href="#">Research Areas</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a tabindex="-1" href="dataScience.html">Data Science</a>
+                  </li>
+                  <li>
+                    <a tabindex="-1" href="newblockchain.html">Blockchain</a>
+                  </li>
+                  <li>
+                    <a tabindex="-1" href="numpricing.html">Numerical Pricing</a>
+                  </li>
+                  <li>
+                    <a tabindex="-1" href="algotrading.html">Algorithmic Trading</a>
+                  </li>
+                  <li>
+                    <a tabindex="-1" href="#">Digital Economy</a>
+                  </li>
+                </ul>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="#">UCL Research</a>
+              </li>
+              <li role="presentation" class="divider"></li>
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="aboutus.html">About Us</a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="#">Links</a>
+              </li>
+            </ul>
+          </div>
         </div>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        
-    </body>
-</html>
+        <div class="col-xs-pull-1 col-xs-10 col-sm-6 col-sm-offset-2">
+          <h1 id="page_title" class="my-4 text-center text-white">Numberical Pricing</h1>
+        </div>
+        <div class="col-md-2 col-sm-2 col-sm-pull-2 hidden-xs">
+          <img src="img/ucl_logo.png" alt="UCL logo" id="UCL_logo"> </div>
+      </div>
+    </div>
+  </div>
