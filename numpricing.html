@@ -1,11 +1,25 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>npod</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/templatestyles.css">
+
+    </head>
     
+    <head>
 <style>
 div.container {
     width: 100%;
     border: 1px solid gray;
 }
-
 header, footer {
     padding: 1em;
     color: black;
@@ -13,21 +27,18 @@ header, footer {
     clear: left;
     text-align: center;
 }
-
 aside {
     float: right;
     max-width: 160px;
     margin: 0;
     padding: 1em;
 }
-
 nav {
     float: left;
     max-width: 160px;
     margin: 0;
     padding: 1em;
 }
-
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -36,7 +47,6 @@ nav ul {
 nav ul a {
     text-decoration: none;
 }
-
 article {
     margin-left: 170px;
     border-left: 1px solid gray;
@@ -44,7 +54,6 @@ article {
     padding: 1em;
     overflow: hidden;
 }
-
 </style>
 </head>
 
@@ -53,6 +62,42 @@ article {
 <img src="https://www.strath.ac.uk/media/1newwebsite/imagesbysize/1600x600/advanced_computer_science.jpg" style="width:1506px;height:400px;">
 
 <div class="container">
+
+<div id="top_bar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class = "col-sm-2">
+                        <div class="dropdown menu">
+                            <button class="btn btn-default btn-lg dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Menu
+                            <span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html">Home</a></li>
+                                <li class="dropdown-submenu">
+                                    <a tabindex="-1" href="#">Research Areas</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a tabindex="-1" href="dataScience.html">Data Science</a></li>
+                                        <li><a tabindex="-1" href="blockchain.html">Blockchain</a></li>
+                                        <li><a tabindex="-1" href="numpricing.html">Numerical Pricing</a></li>
+                                        <li><a tabindex="-1" href="algotrading.html">Algorithmic Trading</a></li>
+                                        <li><a tabindex="-1" href="#">Digital Economy</a></li>
+                                    </ul>
+                                </li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">UCL Research</a></li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="aboutus.html">About Us</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Links</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-offset-0 col-sm-4 col-xs-offset-2">
+                        <h2 id = "page_title">npod</h2>
+                    </div>
+                    <div class="col-md-offset-3 col-md-2 col-sm-offset-2 col-sm-2 hidden-xs">
+                        <img src = "img/ucl_logo.png" alt = "UCL logo" id = "UCL_logo">
+                    </div>
+                </div>
+            </div>
+        </div>
 
 <header>
    <h1>Numerical Pricing Of Derivatives</h1>
@@ -104,6 +149,9 @@ article {
 <footer>Numerical Pricing Of Derivatives</footer>
 
 </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </body>
 </html>
