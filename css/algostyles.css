@@ -161,8 +161,8 @@ dropdown-submenu {
 
 .top_image{
     padding-top: 20px;
-    width:800px !important;
-    height:auto !important;
+    width: 100%;
+    height:auto;
 }
 
 #first_section{
