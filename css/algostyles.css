@@ -9,14 +9,6 @@
 }
 
 @media (min-width: 767px){
-    #fin_logo{
-        min-width: 400px;
-    }
-
-    #second_circle{
-        padding-top:20px;
-        max-width:60%;
-    }
     #page_title{
         font-size: 200%;
         padding-top:20px;
@@ -24,9 +16,6 @@
 }
 
 @media (min-width: 992px){
-    #fin_logo{
-        min-width: 300px;
-    }
     #page_title{
         font-size: 300%;
         padding-top: 10px;
@@ -37,9 +26,6 @@
 }
 
 @media (min-width: 1200px){
-    #fin_logo{
-        min-width: 300px;
-    }
     #importantp1{
         font-size: 200%;
     }
@@ -54,10 +40,6 @@
 }
 
 @media (max-width: 767px){
-    #fin_logo{
-        min-width: 100px;
-        max-width: 100%;
-    }
     #page_title{
         font-size:200%;
         padding-left:100px;
@@ -177,7 +159,7 @@ dropdown-submenu {
     display: block;
 }
 
-.rowoffive{
+.top_image{
     margin:auto;
     display: block;
     padding-top: 20px;
@@ -203,31 +185,6 @@ dropdown-submenu {
     padding-top: 0px;
     padding-bottom: 0px;
     margin:20px;
-}
-
-#fin_logos{
-    height:auto;
-    max-width:100%;
-    padding: 0px;
-    margin:0px;
-}
-
-.table>tbody>tr>td{
-    padding: 0px;
-    border:0px;
-}
-
-.table-responsive{
-    padding-top:50px;
-}
-
-.h1_second_section{
-    text-align: center;
-}
-
-.p1_second_section{
-    text-align: center;
-    font-size: 150%;
 }
 
 #third_section{
