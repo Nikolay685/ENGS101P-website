@@ -7,64 +7,20 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>npod</title>
+        <title>Template</title>
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/templatestyles.css">
 
     </head>
-    
-    <head>
-<style>
-div.container {
-    width: 100%;
-    border: 1px solid gray;
-}
-header, footer {
-    padding: 1em;
-    color: black;
-    background-color: #80d4ff;
-    clear: left;
-    text-align: center;
-}
-aside {
-    float: right;
-    max-width: 160px;
-    margin: 0;
-    padding: 1em;
-}
-nav {
-    float: left;
-    max-width: 160px;
-    margin: 0;
-    padding: 1em;
-}
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-   
-nav ul a {
-    text-decoration: none;
-}
-article {
-    margin-left: 170px;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
-    padding: 1em;
-    overflow: hidden;
-}
-</style>
-</head>
 
-<body>
+    <body>
 
-<div class="container">
-
-   <div id="top_bar">
+        <!-- This is the html for the black bar at the top with logo and menu -->
+        <div id="top_bar">
             <div class="container-fluid">
                 <div class="row">
-                    <div class = "col-xs-2 col-sm-2">
+                    <div class = "col-sm-2">
                         <div class="dropdown menu">
                             <button class="btn btn-default btn-lg dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Menu
                             <span class="caret"></span></button>
@@ -87,71 +43,57 @@ article {
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xs-pull-1 col-xs-10 col-sm-6 col-sm-offset-2">
-                        <h2 id = "page_title">Numerical Pricing</h2>
+                    <div class="col-xs-6 col-sm-offset-0 col-sm-4 col-xs-offset-2">
+                        <h2 id = "page_title">Numerical Pricing of Derivative</h2>
                     </div>
-                    <div class="col-md-2 col-sm-2 col-sm-pull-2 hidden-xs">
+                    <div class="col-md-offset-3 col-md-2 col-sm-offset-2 col-sm-2 hidden-xs">
                         <img src = "img/ucl_logo.png" alt = "UCL logo" id = "UCL_logo">
                     </div>
                 </div>
             </div>
         </div>
 
- <img src="https://www.strath.ac.uk/media/1newwebsite/imagesbysize/1600x600/advanced_computer_science.jpg" style="width:1506px;height:400px;">
-    
-<header>
-   <h1>Numerical Pricing of Derivatives</h1>
-</header>
-  
-<nav>
-  <ul>
-    <li><a href="#">Numerical pricing of derivatives</a></li>
-    <br></br>
-    <li><a href="#">Determination of financial derivatives</a></li>
-    <br></br>
-    <li><a href="#">Influences brought</a></li>
-    <br></br>
-    <li><a href="#">Links to hedge fund</a></li>
-  </ul>
-</nav>
+        <!-- This is an example of image with text on top of it.
+            In this example the image is set to fit the width of the screen
+            but can be easily changed in css.
+            The image does not have ot be placed here. -->
+        <div id = "image_with_text">
+            <div class="container">
+                <div class="row">
+                    <div class = "col-lg-offset-6 col-lg-6 img_text">
+                        <div id = "textBox">
+                            <div id = "text_group">
+                                <h1 class = "img_heading">UCL</h1>
+                                <p1 class = "img_par">University College London is London's leading multidisciplinary 
+                                    university, with more than 11,000 staff and 38,000 students from 150 different 
+                                    countries. Founded in 1826 in the heart of London, UCL was the first university in 
+                                    England to welcome students of any religion and the first to welcome women on equal 
+                                    terms with men.</p1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-<aside>
-  <p>will be some text here!
-  </p>
-</aside>
-
-<article>
-  <h1>Numerical pricing of derivatives</h1>
-  <div style="background-color:#F5F5F5;color:black;padding:20px;">
-  <p>Derivatives can be used for a number of purposes, including insuring against price movements (hedging), increasing exposure to price movements for speculation or getting access to otherwise hard-to-trade assets or markets. Generally, derivatives are used to scatter the risks which is contained in the transactions and operating businesses.</p>
-  <p>They are now becoming increasingly vital for the market and the society as a part of the financial market, a sensible way to combine computing and derivatives will be of potentiality.</p>
-  </div>
-
-  <h1>How are the prices of the financial derivatives determined</h1>
-  <div style="background-color:#F5F5F5;color:black;padding:20px;">
-  <p>Typical financial derivatives such as futures and options are used to describe the goods and services which have not been generated and produced yet, so it can possibly be simplified to be guaranteed transactions made in the future. </p>
-  <p>Futures contracts (futures) are financial contracts to buy or sell an underlying commodity at a certain price in the future. Therefore, the futures contract's value is based on the commodity's cash price. For example, consider a corn futures contract that represents 5,000 bushels of corn. If a bushel of corn is trading at $5 per bushel, the value of the contract is $25,000. Futures contracts are standardized to include a certain amount and quality of the underlying commodity, so they can be traded on a centralized exchange. The futures price moves in relation to the spot price for the commodity based on supply and demand for that commodity.</p>
-  <p>Options on stocks and exchange-traded funds are also common derivative contracts. Options give the buyer the right, as opposed to the obligation, to buy or sell 100 shares of a stock at a strike price for a predetermined amount of time. The best-known pricing model for options is the Black-Scholes method. This method considers the underlying stock price, option strike price, time until the option expires, underlying stock volatility and risk-free interest rate to provide a value for the option.</p>
-  </div>
-
-  <h1>Influences that has been brought by the computer software</h1>
-  <div style="background-color:#F5F5F5;color:black;padding:20px;">
-  <p>Regardless the obvious prices for the goods and services, a huge number of factors are definitely needed to ensure the precision of the numerical outcome. The dynamic digits of elements like exchange rates, interest rates and the prospects of firms are undoubtedly crucial. However, all these factors will make the predictions extremely sophisticated, it is no longer as simple as just a calculation. Therefore the role in which computer plays is to visualised the pricing processes and to make the prediction as modulus as possible (to make it easier to predict).</p>
-  <p>A platform for pricing financial derivatives called premia is a perfect example of using software as a tool.</p>
-  </div>
-
-  <h1>Links to hedging/hedge fund</h1>
-  <div style="background-color:#F5F5F5;color:black;padding:20px;">
-  <p>Although being slightly different to typical cases, hedging is often brought together with financial derivatives. It just simply indicates a way to offset the potential risks by carrying out the opposite action; for instance, to reduce the impacts brought by the decreasing exchange rates, MNCs (multi-national corporations) usually purchase the counter currency in advance. To accurately estimate the specific action which is needed to be carried out, a  chain of calculation and predictions are essential. For the same reason with pricing the typical financial derivatives, simplifications are necessary to make the process workable.</p>
-  </div>
-</article>
-
-<footer>Numerical Pricing Of Derivatives</footer>
-
-</div>
+        <!-- This is an example of image and text on the same row.
+            You can use this at any point -->
+        <div id = "text_and_image">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src = "img/face.jpg" alt = "TEMP image" class = "img-responsive">
+                    </div>
+                    <div class="col-md-6">
+                        <p1 class = "normal_text">This is where the text would go</p1>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-</body>
+    </body>
+
 </html>
