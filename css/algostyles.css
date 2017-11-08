@@ -31,6 +31,9 @@
         font-size: 300%;
         padding-top: 10px;
     }
+    .strat-p{
+        font-size:150%;
+    }
 }
 
 @media (min-width: 1200px){
@@ -177,8 +180,9 @@ dropdown-submenu {
 .rowoffive{
     margin:auto;
     display: block;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-top: 20px;
+    width:800px;
+    height:auto;
 }
 
 #first_section{
@@ -239,4 +243,21 @@ dropdown-submenu {
 .strat-logo{
     max-width: 400px;
     border-radius: 10%;
+}
+
+#title_strategies{
+    text-align: center;
+    font-size: 3.5em;
+    padding-bottom: 20px;
+}
+
+.box{
+    padding-top:30px;
+    padding-bottom: 30px;
+    border-bottom: solid #000000;
+}
+
+#last_element{
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
