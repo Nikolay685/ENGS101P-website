@@ -1,108 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-  <link rel="stylesheet" href="css.css" type="text/css"> </head>
+  <head>
 
-  <style>
-    #top_bar {
-      background-color: black;
-      height: 100px;
-      box-shadow: 10px 0px 10px #000000;
-    }
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    .menu {
-      padding-top: 30px;
-    }
+    <title>Numerical Pricing</title>
 
-    dropdown-submenu {
-      position: relative;
-    }
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/algostyles.css">
 
-    .dropdown-submenu>.dropdown-menu {
-      top: 0;
-      left: 100%;
-      margin-top: -6px;
-      margin-left: -1px;
-      -webkit-border-radius: 0 6px 6px 6px;
-      -moz-border-radius: 0 6px 6px;
-      border-radius: 0 6px 6px 6px;
-    }
+  </head>
+  <body>
 
-    .dropdown-submenu:hover>.dropdown-menu {
-      display: block;
-    }
-
-    .dropdown-submenu>a:after {
-      display: block;
-      content: " ";
-      float: right;
-      width: 0;
-      height: 0;
-      border-color: transparent;
-      border-style: solid;
-      border-width: 5px 0 5px 5px;
-      border-left-color: #ccc;
-      margin-top: 5px;
-      margin-right: -10px;
-    }
-
-
-  </style>
-
-  
-<body class="">
-  <div id="top_bar">
-    <div class="container-fluid">
-      <div class="row bg-dark">
-        <div class="col-xs-2 col-sm-2">
-          <div class="dropdown menu">
-            <button class="btn btn-default btn-lg dropdown-toggle border-white btn-dark border border-light" type="button" id="menu1" data-toggle="dropdown">Menu <span class="caret"></span></button>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-              <li role="presentation">
-                <a role="menuitem" tabindex="-1" href="index.html">Home</a>
-              </li>
-              <li class="dropdown-submenu">
-                <a tabindex="-1" href="#">Research Areas</a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a tabindex="-1" href="dataScience.html">Data Science</a>
-                  </li>
-                  <li>
-                    <a tabindex="-1" href="newblockchain.html">Blockchain</a>
-                  </li>
-                  <li>
-                    <a tabindex="-1" href="numpricing.html">Numerical Pricing</a>
-                  </li>
-                  <li>
-                    <a tabindex="-1" href="algotrading.html">Algorithmic Trading</a>
-                  </li>
-                  <li>
-                    <a tabindex="-1" href="#">Digital Economy</a>
-                  </li>
-                </ul>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" tabindex="-1" href="#">UCL Research</a>
-              </li>
-              <li role="presentation" class="divider"></li>
-              <li role="presentation">
-                <a role="menuitem" tabindex="-1" href="aboutus.html">About Us</a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" tabindex="-1" href="#">Links</a>
-              </li>
-            </ul>
-          </div>
+    <div id="top_bar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class = "col-xs-2 col-sm-2">
+                    <div class="dropdown menu">
+                        <button class="btn btn-default btn-lg dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Menu
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html">Home</a></li>
+                            <li class="dropdown-submenu">
+                                <a tabindex="-1" href="#">Research Areas</a>
+                                <ul class="dropdown-menu">
+                                    <li><a tabindex="-1" href="dataScience.html">Data Science</a></li>
+                                    <li><a tabindex="-1" href="newblockchain.html">Blockchain</a></li>
+                                    <li><a tabindex="-1" href="numpricing.html">Numerical Pricing</a></li>
+                                    <li><a tabindex="-1" href="algotrading.html">Algorithmic Trading</a></li>
+                                    <li><a tabindex="-1" href="#">Digital Economy</a></li>
+                                </ul>
+                            </li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">UCL Research</a></li>
+                            <li role="presentation" class="divider"></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="aboutus.html">About Us</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="resources.html">Resources</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-pull-1 col-xs-10 col-sm-6 col-sm-offset-2">
+                    <h2 id = "page_title">Numerical Pricing</h2>
+                </div>
+                <div class="col-md-2 col-sm-2 col-sm-pull-2 hidden-xs">
+                    <img src = "img/ucl_logo.png" alt = "UCL logo" id = "UCL_logo">
+                </div>
+            </div>
         </div>
-        <div class="col-xs-pull-1 col-xs-10 col-sm-6 col-sm-offset-2">
-          <h1 id="page_title" class="my-4 text-center text-white">Numberical Pricing</h1>
-        </div>
-        <div class="col-md-2 col-sm-2 col-sm-pull-2 hidden-xs">
-          <img src="img/ucl_logo.png" alt="UCL logo" id="UCL_logo"> </div>
-      </div>
     </div>
-  </div>
