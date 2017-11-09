@@ -6,166 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="index.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/algostyles.css">
   <title> Engineering Team Challenge 1 </title>
-  <style>
-    #top_bar {
-      background-color: black;
-      height: 100px;
-      box-shadow: 10px 0px 10px #000000;
-    }
-
-    .menu {
-      padding-top: 30px;
-    }
-
-    dropdown-submenu {
-      position: relative;
-    }
-
-    .dropdown-submenu>.dropdown-menu {
-      top: 0;
-      left: 100%;
-      margin-top: -6px;
-      margin-left: -1px;
-      -webkit-border-radius: 0 6px 6px 6px;
-      -moz-border-radius: 0 6px 6px;
-      border-radius: 0 6px 6px 6px;
-    }
-
-    .dropdown-submenu:hover>.dropdown-menu {
-      display: block;
-    }
-
-    .dropdown-submenu>a:after {
-      display: block;
-      content: " ";
-      float: right;
-      width: 0;
-      height: 0;
-      border-color: transparent;
-      border-style: solid;
-      border-width: 5px 0 5px 5px;
-      border-left-color: #ccc;
-      margin-top: 5px;
-      margin-right: -10px;
-    }
-
-    .dropdown-submenu:hover>a:after {
-      border-left-color: #fff;
-    }
-
-    .dropdown-submenu.pull-left {
-      float: none;
-    }
-
-    .dropdown-submenu.pull-left>.dropdown-menu {
-      left: -100%;
-      margin-left: 10px;
-      -webkit-border-radius: 6px 0 6px 6px;
-      -moz-border-radius: 6px 0 6px 6px;
-      border-radius: 6px 0 6px 6px;
-    }
-
-    .btn-default {
-      background-color: black
-    }
-
-    .btn-lg {
-      color: white;
-      border-radius: 0;
-    }
-
-    #UCL_logo {
-      height: 100px;
-    }
-
-    #page_title {
-      color: white;
-      font-family: 'Raleway-SemiBold', Arial, sans-serif;
-    }
-
-    #importanth1 {
-      font-size: 5em;
-      margin: auto;
-      max-width: 900px;
-      padding-top: 10px;
-      padding-bottom: 20px;
-    }
-
-    #importantp1 {
-      margin: auto;
-      max-width: 950px;
-      display: block;
-    }
-
-    .rowoffive {
-      margin: auto;
-      display: block;
-      padding-bottom: 10px;
-      padding-top: 10px;
-    }
-
-    #first_section {
-      background-color: lightskyblue;
-      z-index: -1;
-      position: relative;
-    }
-
-    #second_section {
-      background-image: url("../img/account.jpg");
-      background-position: center;
-      background-size: cover;
-    }
-
-    .textBox {
-      box-shadow: 5px 5px 10px #000000;
-      background-color: #dee4c6;
-      padding: 20px;
-      padding-top: 0px;
-      padding-bottom: 0px;
-      margin: 20px;
-    }
-
-    #fin_logos {
-      height: auto;
-      max-width: 100%;
-      padding: 0px;
-      margin: 0px;
-    }
-
-    .table>tbody>tr>td {
-      padding: 0px;
-      border: 0px;
-    }
-
-    .table-responsive {
-      padding-top: 50px;
-    }
-
-    .h1_second_section {
-      text-align: center;
-    }
-
-    .p1_second_section {
-      text-align: center;
-      font-size: 150%;
-    }
-
-    #third_section {
-      background-color: lightskyblue;
-      padding-top: 10px;
-      padding-bottom: 10px;
-    }
-
-    .benefits {
-      font-size: 150%;
-    }
-
-    .strat-logo {
-      max-width: 400px;
-      border-radius: 10%;
-    }
-  </style>
+ 
 </head>
 
 <body class="bg-dark">
@@ -174,7 +18,7 @@
       <div class="row">
         <div class="col-xs-2 col-sm-2">
           <div class="dropdown menu">
-            <button class="btn btn-default btn-lg dropdown-toggle border border-white" type="button" id="menu1" data-toggle="dropdown">Menu <span class="caret"></span></button>
+            <button class="btn btn-default btn-lg dropdown-toggle border border-white" type="button" id="menu1" data-toggle="dropdown">Menu <span class=""></span></button>
             <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
               <li role="presentation">
                 <a role="menuitem" tabindex="-1" href="index.html">Home</a>
@@ -195,7 +39,7 @@
                     <a tabindex="-1" href="algotrading.html">Algorithmic Trading</a>
                   </li>
                   <li>
-                    <a tabindex="-1" href="#">Digital Economy</a>
+                    <a tabindex="-1" href="digitaleconomyfolder/index.html">Digital Economy</a>
                   </li>
                 </ul>
               </li>
@@ -213,7 +57,7 @@
           </div>
         </div>
         <div class="col-xs-pull-1 col-xs-10 col-sm-6 col-sm-offset-2">
-          <h1 id="page_title" class="my-4 text-center">Home page</h1>
+          <h1 id="page_title">Home page</h1>
         </div>
         <div class="col-md-2 col-sm-2 col-sm-pull-2 hidden-xs">
           <img src="img/ucl_logo.png" alt="UCL logo" id="UCL_logo"> </div>
@@ -281,7 +125,7 @@
             <div class="card-block p-2">
               <h3 class="text-center">Digital Economy</h3>
               <img class="img-fluid d-block" src="micro.jpg">
-              <a href="digitaleconomyfolder/digital economy.html" class="btn btn-dark btn-block">Learn more</a>
+              <a href="digitaleconomyfolder/index.html" class="btn btn-dark btn-block">Learn more</a>
             </div>
           </div>
         </div>

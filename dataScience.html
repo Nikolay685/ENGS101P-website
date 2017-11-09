@@ -6,166 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="css.css" type="text/css"> </head>
-
-  <style>
-    #top_bar {
-      background-color: black;
-      height: 100px;
-      box-shadow: 10px 0px 10px #000000;
-    }
-
-    .menu {
-      padding-top: 30px;
-    }
-
-    dropdown-submenu {
-      position: relative;
-    }
-
-    .dropdown-submenu>.dropdown-menu {
-      top: 0;
-      left: 100%;
-      margin-top: -6px;
-      margin-left: -1px;
-      -webkit-border-radius: 0 6px 6px 6px;
-      -moz-border-radius: 0 6px 6px;
-      border-radius: 0 6px 6px 6px;
-    }
-
-    .dropdown-submenu:hover>.dropdown-menu {
-      display: block;
-    }
-
-    .dropdown-submenu>a:after {
-      display: block;
-      content: " ";
-      float: right;
-      width: 0;
-      height: 0;
-      border-color: transparent;
-      border-style: solid;
-      border-width: 5px 0 5px 5px;
-      border-left-color: #ccc;
-      margin-top: 5px;
-      margin-right: -10px;
-    }
-
-    .dropdown-submenu:hover>a:after {
-      border-left-color: #fff;
-    }
-
-    .dropdown-submenu.pull-left {
-      float: none;
-    }
-
-    .dropdown-submenu.pull-left>.dropdown-menu {
-      left: -100%;
-      margin-left: 10px;
-      -webkit-border-radius: 6px 0 6px 6px;
-      -moz-border-radius: 6px 0 6px 6px;
-      border-radius: 6px 0 6px 6px;
-    }
-
-    .btn-default {
-      background-color: black
-    }
-
-    .btn-lg {
-      color: white;
-      border-radius: 0;
-    }
-
-    #UCL_logo {
-      height: 100px;
-    }
-
-    #page_title {
-      color: white;
-      font-family: 'Raleway-SemiBold', Arial, sans-serif;
-    }
-
-    #importanth1 {
-      font-size: 5em;
-      margin: auto;
-      max-width: 900px;
-      padding-top: 10px;
-      padding-bottom: 20px;
-    }
-
-    #importantp1 {
-      margin: auto;
-      max-width: 950px;
-      display: block;
-    }
-
-    .rowoffive {
-      margin: auto;
-      display: block;
-      padding-bottom: 10px;
-      padding-top: 10px;
-    }
-
-    #first_section {
-      background-color: lightskyblue;
-      z-index: -1;
-      position: relative;
-    }
-
-    #second_section {
-      background-image: url("../img/account.jpg");
-      background-position: center;
-      background-size: cover;
-    }
-
-    .textBox {
-      box-shadow: 5px 5px 10px #000000;
-      background-color: #dee4c6;
-      padding: 20px;
-      padding-top: 0px;
-      padding-bottom: 0px;
-      margin: 20px;
-    }
-
-    #fin_logos {
-      height: auto;
-      max-width: 100%;
-      padding: 0px;
-      margin: 0px;
-    }
-
-    .table>tbody>tr>td {
-      padding: 0px;
-      border: 0px;
-    }
-
-    .table-responsive {
-      padding-top: 50px;
-    }
-
-    .h1_second_section {
-      text-align: center;
-    }
-
-    .p1_second_section {
-      text-align: center;
-      font-size: 150%;
-    }
-
-    #third_section {
-      background-color: lightskyblue;
-      padding-top: 10px;
-      padding-bottom: 10px;
-    }
-
-    .benefits {
-      font-size: 150%;
-    }
-
-    .strat-logo {
-      max-width: 400px;
-      border-radius: 10%;
-    }
-  </style>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/algostyles.css">
+  
 
   
 <body class="">
@@ -174,7 +17,7 @@
       <div class="row bg-dark">
         <div class="col-xs-2 col-sm-2">
           <div class="dropdown menu">
-            <button class="btn btn-default btn-lg dropdown-toggle border-white btn-dark border border-light" type="button" id="menu1" data-toggle="dropdown">Menu <span class="caret"></span></button>
+            <button class="btn btn-default btn-lg dropdown-toggle border-white btn-dark border border-light" type="button" id="menu1" data-toggle="dropdown">Menu </button>
             <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
               <li role="presentation">
                 <a role="menuitem" tabindex="-1" href="index.html">Home</a>
@@ -195,7 +38,7 @@
                     <a tabindex="-1" href="algotrading.html">Algorithmic Trading</a>
                   </li>
                   <li>
-                    <a tabindex="-1" href="#">Digital Economy</a>
+                    <a tabindex="-1" href="digitaleconomyfolder/index.html">Digital Economy</a>
                   </li>
                 </ul>
               </li>
@@ -204,8 +47,7 @@
               </li>
               <li role="presentation" class="divider"></li>
               <li role="presentation">
-                <a role="menuitem" tabindex="-1" href="aboutus.html">About Us</a>
-              </li>
+                <a role="menuitem" tabindex="-1" href="aboutus.html">About Us</a>              </li>
               <li role="presentation">
                 <a role="menuitem" tabindex="-1" href="resources.html">resources</a>
               </li>
@@ -213,22 +55,21 @@
           </div>
         </div>
         <div class="col-xs-pull-1 col-xs-10 col-sm-6 col-sm-offset-2">
-          <h1 id="page_title" class="my-4 text-center text-white">Data science</h1>
+          <h1 id="page_title" class="text-white">Data science</h1>
         </div>
-        <div class="col-md-2 col-sm-2 col-sm-pull-2 hidden-xs">
-          <img src="img/ucl_logo.png" alt="UCL logo" id="UCL_logo"> </div>
+        <div class="col-md-2 col-sm-2 col-sm-pull-2 hidden-xs">          <img src="img/ucl_logo.png" alt="UCL logo" id="UCL_logo"> </div>
       </div>
     </div>
   </div>
   <div class="py-5 text-center" style="background-image: url(&quot;ds5.jpg&quot;);">
     <div class="container py-5">
       <div class="row">
-        <div class="col-md-12">
+,        <div class="col-md-12">
           <h1 class="display-1 pi-draggable text-white" id="c_title">Data Science</h1>
           <p class="text-light">What is Data Science? In order to make a good and competent decision you need to have all the relevant facts and information. With incomplete facts, you only have a small peep through the keyhole to see through, the rest is guesswork, with all
             the necessary information, the door is opened wide and you have a clear view!</p>
-        </div>
-      </div>
+,        </div>
+.      </div>
       <div class="row">
         <div class="col-md-12 text-white">
           <p class="lead mb-5">The more complete our knowledge the better chance we have of making a good decision.
@@ -238,8 +79,7 @@
     </div>
   </div>
   <div class="py-5" style="background-image: url(&quot;ds1.jpeg&quot;);">
-    <div class="container">
-      <div class="row mb-5">
+.    <div class="container">      <div class="row mb-5">
         <div class="col-md-7 bg-secondary">
           <p class="py-5 text-white">By examining the extensive range of data out there, for any subject, we can reveal all kinds of interesting patterns and trends that can reveal a lot about a subject and be invaluable to future decisions. We can put this information to good
             use: predictions based on past trends, calculating the probability of outcomes, and get quick and accurate results when we need them. Useful in any field, absolutely invaluable for finance!</p>
@@ -253,14 +93,14 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 bg-dark">
-          <h1 class="text-center display-3 text-white">History of data science:</h1>
+          <h1 class="text-center display-3 text-white">History of Data Science</h1>
         </div>
       </div>
       <div class="row">
         <div class="col-md-12 bg-dark">
-          <p class="text-white">The term data science has been with us since the 1960s, initially synonymous with computer science. Since the late 1990s data science has become a discipline in its own right very much fuelled by advances in computing with data, and the growth
+          <p class="text-white">The term data science has been with us since the 1960s, initially synonymous with computer science. Since the late 1990s data science has become a discipline in its own right, very much fuelled by advances in computing with data, and the growth
             of computing technology to facilitate it. It has grown out of the mathematical field of statistics. Of course people have been gathering data of all kinds for a long time and using it to gain insights to give them a clearer understanding of
-            a subject.. Now the advancements in and wider availability of hardware and software have made it quick, easy and inexpensive to gather, store and analyse large amounts of data. It’s no longer the preserve of big businesses, any small company
+            a subject. Now the advancements in, and wider availability of hardware and software have made it quick, easy and inexpensive to gather, store and analyse large amounts of data. It’s no longer the preserve of big businesses, any small company
             can access the benefits of data science, using information of all kinds such as sales and marketing data, customer support data and website traffic. All necessary to give a business a clear insight into how to improve, provide what their clients
             need and grow with the changing environment they operate in. </p>
         </div>
@@ -273,7 +113,7 @@
         <div class="col-md-12 text-white bg-secondary">
           <h1 class="text-center display-3 text-white">Data Collection</h1>
           <p class="text-white">Traditionally data would have to be collected by asking people questions, giving them pencil and paper questionnaires to fill in and studying written records. These days there’s so much more information that can be easily access thanks to the
-            internet and ubiquity of computerisation. Questionnaires still have their place but so much more data can be gathered from them when distributed and filled in by thousands of people online than in person! These days when so much is done electronically,
+            internet and ubiquity of computerisation. Questionnaires still have their place but so much more data can be gathered from them when distributed and filled in by thousands of people online rather than in person. These days when so much is done electronically,
             there are records constantly created and updated of all kinds of transactions: who’s buying what, where, when, how much they spend, just by looking at payment card transactions, our use of the internet and mobile phones. Data is collected
             about our every move! Never before have we had so many statistics at our disposal. And this huge store of statistical information can be put to use, to analyse and understand all manner of interesting and useful insights.</p>
         </div>
@@ -286,9 +126,9 @@
         <div class="col-md-12 text-white bg-secondary">
           <h1 class="text-center display-3">Data Analysis</h1>
           <p class="">These collections of data, or data sets, can be examined in the process of data mining, or analysis, to extract all kinds of interesting patterns and trends. Algorithms are used to look for the information we may find useful. This could be all
-            kinds of things that can give a business an edge. Patterns can emerge in consumer behaviour so, armed with what people want to buy and when they can be prepared and stock up, knowing when to expect a high demand in some ranges. They can also
-            target their advertising to match what data science has revealed their different customers want, aimed at different age or social groups. We’ve all seen it in action: recommendations on websites tailored on what they predict we’ll be interested,
-            financial predictions on the news. A data scientist was behind it all! A seamless part of our everyday modern world</p>
+            kinds of things that can give a business an edge. Patterns can emerge in consumer behaviour so, armed with knowledge of what people want to buy and when, they can be prepared and stock up, knowing when to expect a high demand in some ranges. They can also
+            target their advertising to match what data science has revealed their different customers want, aimed at different age or social groups. We’ve all seen it in action: recommendations on websites tailored to what they predict we’ll be interested in, or
+            financial predictions on the news. A data scientist was behind it all! A seamless part of our everyday modern world.</p>
         </div>
       </div>
     </div>
