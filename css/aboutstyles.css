@@ -1,6 +1,91 @@
-#top_title{
-    background-color: black;
+@font-face {
+    font-family: "Raleway-Light";
+    src: url("../fonts/Raleway-Light.ttf");
 }
+
+@font-face {
+    font-family: "Raleway-SemiBold";
+    src: url("../fonts/Raleway-SemiBold.ttf");
+}
+
+/* ----------- TOP BAR ---------------*/
+#top_bar{
+    background-color: black;
+    height:100px;
+    box-shadow: 10px 0px 10px #000000;
+}
+
+.menu{
+    padding-top: 30px;
+}
+
+dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+.btn-default{
+    background-color:black
+}
+
+.btn-lg{
+    color: white;
+    border-radius: 0;
+}
+
+#UCL_logo{
+    height:100px;
+}
+
+#page_title{
+    color:white;
+    font-size: 400%;
+    font-family: 'Raleway-SemiBold', Arial, sans-serif;
+}
+/*---------------------------------*/
 
 .face{
     max-width:200px;
@@ -19,6 +104,7 @@
     height: 400px;
     background-size: cover;
     background-position: center;
+    z-index: -1; position:relative;
 }
 
 .img_text{
@@ -35,13 +121,50 @@
     font-weight: bold;
 }
 
-#textBox{
+.textBox{
     box-shadow: 5px 5px 10px #000000;
     background-color: #dee4c6;
     padding: 20px;
     padding-top: 0px;
+    max-width:500px;
+    margin: auto;
+    display:block;
+}
+
+.textBoxFace{
+    box-shadow: 5px 5px 10px #000000;
+    padding: 20px;
+    padding-top: 10px;
+    max-width:500px;
+    margin: auto;
+    display:block;
+}
+
+#Nikolay_box{
+    background-color: #6B9362; 
+}
+
+#Joe_box{
+    background-color: #4D8FAC;
+}
+
+#David_box{
+    background-color: #A87CA0;
+}
+
+#Yue_box{
+    background-color: #E2B13C;
+}
+
+#Jason_box{
+    background-color: #d35400;
 }
 
 #facegroup{
-    background-color: #53a0f1;
+    box-shadow: -10px 0px 10px #000000;
+    background-color: lightskyblue;
+}
+
+.face_text{
+    font-size:1.5em;
 }

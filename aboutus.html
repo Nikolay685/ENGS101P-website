@@ -15,13 +15,37 @@
   </head>
   <body>
 
-    <div id="top_title">
+    <div id="top_bar">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-2">
+                <div class = "col-xs-2">
+                    <div class="dropdown menu">
+                        <button class="btn btn-default btn-lg dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Menu
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html">Home</a></li>
+                            <li class="dropdown-submenu">
+                                <a tabindex="-1" href="#">Research Areas</a>
+                                <ul class="dropdown-menu">
+                                    <li><a tabindex="-1" href="dataScience.html">Data Science</a></li>
+                                    <li><a tabindex="-1" href="newblockchain.html">Blockchain</a></li>
+                                    <li><a tabindex="-1" href="numpricing.html">Numerical Pricing</a></li>
+                                    <li><a tabindex="-1" href="algotrading.html">Algorithmic Trading</a></li>
+                                    <li><a tabindex="-1" href="#">Digital Economy</a></li>
+                                </ul>
+                                </li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">UCL Research</a></li>
+                            <li role="presentation" class="divider"></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="aboutus.html">About Us</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="resources.html">Resources</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-sm-offset-8 col-sm-2">
-                    <img src = "img/ucl_logo.png" alt = "UCL logo" class="img-responsive logo">
+                <div class="col-xs-6 col-sm-offset-0 col-sm-4 col-xs-offset-2">
+                    <h2 id = "page_title">About Us</h2>
+                </div>
+                <div class="col-md-offset-3 col-md-2 col-sm-offset-2 col-sm-2 hidden-xs">
+                    <img src = "img/ucl_logo.png" alt = "UCL logo" id = "UCL_logo">
                 </div>
             </div>
         </div>
@@ -31,14 +55,13 @@
         <div class="container">
             <div class="row">
                 <div class = "col-md-offset-6 col-md-6 img_text">
-                    <div id = "textBox">
+                    <div class = "textBox">
                         <div id = "text">
                             <h1 class = "UCL_heading">UCL</h1>
                             <p1 class = "UCL_text">University College London is London's leading multidisciplinary 
-                                university, with more than 11,000 staff and 38,000 students from 150 different 
-                                countries. Founded in 1826 in the heart of London, UCL was the first university in 
-                                England to welcome students of any religion and the first to welcome women on equal 
-                                terms with men.</p1>
+                                university with one of the worlds best research groups. UCL is proud to welcome students
+                                from 150 different countries. Founded in 1826 and first university in England that welcomed 
+                                students of any religion and gender on equal terms.</p1>
                         </div>
                     </div>
                 </div>
@@ -49,35 +72,68 @@
     <div id = "facegroup">
         <div class="container text-center">
             <div class = "row">
-                <div class = "aboutperson">
-                    <img src = "img/face.jpg" alt = "Someones Face" class="img-responsive img-circle face">
-                    <h1>Nikolay Bortsov</h1>
-                    <p1>Hello I am a studen at UCL. Student 4 year course, algo tradaing about us</p1>
+
+                <div class = "col-md-6 aboutperson">
+                    <div class="textBoxFace" id = "Nikolay_box">
+                        <div class="inBox">
+                            <img src = "img/face.jpg" alt = "Someones Face" class="img-responsive img-circle face">
+                            <h1>Nikolay Bortsov</h1>
+                            <p1 class = "face_text">Hello, I am a student at UCL doing 4 year course for Computer Science. During creation
+                                of this web-site my main responsibilites were to reaseach and design algorithmic trading,
+                                about us and resources pages.<br>----
+                            </p1>
+                        </div>
+                    </div>
                 </div>
                 
-                <div class="aboutperson">
-                    <img src = "img/face.jpg" alt = "Someones Face" class="img-responsive img-circle face">
-                    <h1>Joseph Halse</h1>
-                    <p1>4 year course, Game developer, student, designer of home page and the game, data science.</p1>
+                <div class = "col-md-6 aboutperson">
+                    <div class="textBoxFace" id = "Joe_box">
+                        <div class="inBox">
+                            <img src = "img/male_an.jpg" alt = "Someones Face" class="img-responsive img-circle face">
+                            <h1>Joseph Halse</h1>
+                            <p1 class = "face_text">Howdy, I am student at UCL doing 4 year course in Computer Science. A bit about myself, I
+                                am a game develper in my free time and hope that it would be my full time job one day. For the
+                                web-site I have researched and designed Data Science, little game and home pages.
+                            </p1>
+                        </div>
+                    </div>
+                </div>    
+
+                <div class = "col-md-6 aboutperson">
+                    <div class="textBoxFace" id = "David_box">
+                        <div class="inBox">
+                            <img src = "img/David.jpg" alt = "Someones Face" class="img-responsive img-circle face">
+                            <h1>David Pourquery Gonzales</h1>
+                            <p1 class = "face_text">Hi, I am a student at UCL completing 4 year Computer Science course. My main responsibilities
+                                were to research and design blockchain page.
+                            </p1>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="aboutperson">
-                    <img src = "img/david.jpg" alt = "Someones Face" class="img-responsive img-circle face">
-                    <h1>David Pourquery Gonzales</h1>
-                    <p1>Kind of a dick</p1>
+                <div class = "col-md-6 aboutperson">
+                    <div class="textBoxFace" id = "Yue_box">
+                        <div class="inBox">
+                            <img src = "img/female_an.png" alt = "Someones Face" class="img-responsive img-circle face">
+                            <h1>Yue Wu</h1>
+                            <p1 class = "face_text">Hiya, I am a student in UCL doing 4 year course in Computer Science. My main responsibilites
+                                were to research and design Digital Economy page.</p1> 
+                        </div>
+                    </div>
                 </div>
 
-                <div class="aboutperson">
-                    <img src = "img/face.jpg" alt = "Someones Face" class="img-responsive img-circle face">
-                    <h1>Yue Wu</h1>
-                    <p1>student 4 year course, digital economy</p1> 
+                <div class = "col-md-12 aboutperson">
+                    <div class="textBoxFace" id = "Jason_box">
+                        <div class="inBox">
+                            <img src = "img/Jason.jpg" alt = "Someones Face" class="img-responsive img-circle face">
+                            <h1>Jinxin Lin</h1>
+                            <p1 class = "face_text">Hey, I am a student at UCL doing 4 year course in COmputer Science. My main responsibilities were
+                                to research and design Numerical pricing page.
+                            </p1>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="aboutperson">
-                    <img src = "img/face.jpg" alt = "Someones Face" class="img-responsive img-circle face">
-                    <h1>Jinxin Lin</h1>
-                    <p1>Student 4 year course, numerical pricing </p1>
-                </div>
             </div>
         </div>
     </div>
