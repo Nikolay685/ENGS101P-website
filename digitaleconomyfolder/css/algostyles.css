@@ -1,0 +1,216 @@
+@font-face {
+    font-family: "Raleway-Light";
+    src: url("../fonts/Raleway-Light.ttf");
+}
+
+@font-face {
+    font-family: "Raleway-SemiBold";
+    src: url("../fonts/Raleway-SemiBold.ttf");
+}
+
+@media (min-width: 767px){
+    #page_title{
+        font-size: 200%;
+        padding-top:20px;
+    }
+}
+
+@media (min-width: 992px){
+    #page_title{
+        font-size: 300%;
+        padding-top: 10px;
+    }
+    .strat-p{
+        font-size:150%;
+    }
+}
+
+@media (min-width: 1200px){
+    #importantp1{
+        font-size: 200%;
+    }
+
+}
+
+@media (min-width: 470px){
+    #page_title{
+        padding-top:10px;
+    }
+
+}
+
+@media (max-width: 767px){
+    #page_title{
+        font-size:200%;
+        padding-left:100px;
+        padding-top: 20px;
+    }
+    .menu{
+        max-width: 100px;
+    }
+    
+}
+
+@media (max-width: 992px){
+    .strat-logo{
+        margin:auto;
+        position: relative;
+    }
+    .strat-h{
+        text-align: center;
+    }
+    .strat-p{
+        font-size: 130%;
+    }
+    #importantp1{
+        font-size: 150%;
+    }
+}
+
+/* ----------- TOP BAR ---------------*/
+#top_bar{
+    background-color: black;
+    height:100px;
+    box-shadow: 10px 0px 10px #000000;
+}
+
+.menu{
+    padding-top: 30px;
+}
+
+dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+.btn-default{
+    background-color:black
+}
+
+.btn-lg{
+    color: white;
+    border-radius: 0;
+}
+
+#UCL_logo{
+    height:100px;
+
+
+
+}
+
+#importanth1{
+    font-size: 5em;
+    margin:auto;
+    max-width:900px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#importantp1{
+    
+    margin:auto;
+    max-width: 950px;
+    display: block;
+}
+
+.top_image{
+    padding-top: 20px;
+    width: 200%;
+    height:auto;
+}
+
+#first_section{
+    background-color: lightskyblue;
+    z-index: -1; position:relative;
+}
+
+#second_section{
+    background-image: url("../img/account.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.textBox{
+    box-shadow: 5px 5px 10px #000000;
+    background-color: #dee4c6;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin:20px;
+}
+
+#third_section{
+    background-color: lightskyblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.benefits{
+    font-size: 150%;
+}
+
+.strat-logo{
+    max-width: 400px;
+    border-radius: 10%;
+}
+
+#title_strategies{
+    text-align: center;
+    font-size: 3.5em;
+    padding-bottom: 20px;
+}
+
+.box{
+    padding-top:30px;
+    padding-bottom: 30px;
+    border-bottom: solid #000000;
+}
+
+#last_element{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
